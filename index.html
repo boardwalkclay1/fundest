@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alternative Capital Navigator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="theme-light">
+
+  <!-- Falling Money Background -->
+  <canvas id="money-canvas"></canvas>
+
+  <header class="app-header">
+    <h1>Alternative Capital Navigator</h1>
+    <button id="theme-toggle" class="bubble small">Switch Theme</button>
+  </header>
+
+  <main class="home-container">
+
+    <section class="intro">
+      <h2>Why Investing Matters</h2>
+      <p>
+        Investing builds wealth, funds innovation, strengthens communities, and creates long‑term stability.
+        Understanding investor types helps you choose the right capital partner for your project.
+      </p>
+    </section>
+
+    <section class="nav-grid">
+
+      <a href="pages/glossary.html" class="bubble nav-btn">Glossary</a>
+      <a href="pages/categories.html" class="bubble nav-btn">Investor Categories</a>
+      <a href="pages/notes.html" class="bubble nav-btn">Notes</a>
+      <a href="pages/quiz.html" class="bubble nav-btn">Find Your Investor</a>
+      <a href="pages/pitchFlow.html" class="bubble nav-btn">Pitch Generator</a>
+
+    </section>
+
+  </main>
+
+  <script type="module" src="modules/router.js"></script>
+  <script type="module" src="modules/theme.js"></script>
+  <script type="module" src="modules/uiEffects.js"></script>
+
+</body>
+</html>
